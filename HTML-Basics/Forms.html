@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Form</title>
+</head>
+<body>
+	<h1>Example Form</h1>
+	<form action="submit.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required><br>
+
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" min="18" max="99" required><br>
+
+		<label for="gender">Gender:</label>
+		<input type="radio" id="gender-male" name="gender" value="male" required>
+		<label for="gender-male">Male</label>
+		<input type="radio" id="gender-female" name="gender" value="female" required>
+		<label for="gender-female">Female</label><br>
+
+		<label for="pets">Do you have pets?</label>
+		<input type="checkbox" id="pets-cats" name="pets[]" value="cats">
+		<label for="pets-cats">Cats</label>
+		<input type="checkbox" id="pets-dogs" name="pets[]" value="dogs">
+		<label for="pets-dogs">Dogs</label>
+		<input type="checkbox" id="pets-other" name="pets[]" value="other">
+		<label for="pets-other">Other</label><br>
+
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+</body>
+</html>
