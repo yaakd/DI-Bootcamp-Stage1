@@ -1,0 +1,15 @@
+#x{
+	color: rgb(0, 0, 225) ;
+	font-size: 36px;
+}
+
+#y{
+	background-color: rgb(144, 238, 144);
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.odd{
+	background-color: lightpink;
+	font-family: Verdana, "DejaVu Sans", sans-serif;
+}
