@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="quiz-script.js" defer></script>
+    <title>Arnold Quiz</title> 
+     <style>
+        .governator {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0f/A._Schwarzenegger.jpg');
+            background-size: 100%;
+            background-position: left;
+            background-repeat: no-repeat;
+            height: 100vh; /* set the height of the div to the full height of the viewport */
+            width: 51%; /* set the width of the div to half of the page */
+            float:left;
+            margin-right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biography.html">Biography</a></li>
+            <li><a href="memorable-moments.html">Memorable Moments</a></li>
+            <li><a href="quotes-memes.html">Quotes & Memes</a></li>
+            <li><a href="arnold-quiz.html">Arnold Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+     <div class="governator"></div>
+    <main>
+        <section class="page-content">
+            <h2>Arnold Schwarzenegger Quiz</h2>
+            <form id="quiz-form">
+                <div class="quiz-question">
+                <p>1. In which country was Arnold Schwarzenegger born?</p>
+                <label><input type="radio" name="question1" value="A"> Germany</label><br>
+                <label><input type="radio" name="question1" value="B"> Austria</label><br>
+                <label><input type="radio" name="question1" value="C"> Switzerland</label><br>
+                <label><input type="radio" name="question1" value="D"> United States</label>
+                </div>
+                <div class="quiz-question">
+                <p>2. What was Arnold's first major movie role?</p>
+                <label><input type="radio" name="question2" value="A"> The Terminator</label><br>
+                <label><input type="radio" name="question2" value="B"> Conan the Barbarian</label><br>
+                <label><input type="radio" name="question2" value="C"> Hercules in New York</label><br>
+                <label><input type="radio" name="question2" value="D"> Total Recall</label>
+                </div>
+                <div class="quiz-question">
+                <p>3. How many times did Arnold win the Mr. Olympia title?</p>
+                <label><input type="radio" name="question3" value="A"> 5</label><br>
+                <label><input type="radio" name="question3" value="B"> 6</label><br>
+                <label><input type="radio" name="question3" value="C"> 7</label><br>
+                <label><input type="radio" name="question3" value="D"> 8</label>
+                </div>
+                <div class="quiz-question">
+                <p>4. What was the name of the character Arnold played in the "Terminator" series?</p>
+                <label><input type="radio" name="question4" value="A"> T-800</label><br>
+                <label><input type="radio" name="question4" value="B"> T-1000</label><br>
+                <label><input type="radio" name="question4" value="C"> T-X</label><br>
+                <label><input type="radio" name="question4" value="D"> John Connor</label>
+                </div>
+                <div class="quiz-question">
+                <p>5. Which political office did Arnold hold from 2003 to 2011?</p>
+                <label><input type="radio" name="question5" value="A"> Mayor of Los Angele</label><br>
+                <label><input type="radio" name="question5" value="B"> Governor of California</label><br>
+                <label><input type="radio" name="question5" value="C"> U.S. Senator from California</label><br>
+                <label><input type="radio" name="question5" value="D"> U.S. Representative from California</label>
+                </div>
+                <input type="submit" value="Submit Quiz">
+            </form>
+            <div id="quiz-result"></div>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
